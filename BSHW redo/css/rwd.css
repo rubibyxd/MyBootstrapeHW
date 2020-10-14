@@ -1,0 +1,55 @@
+@media (max-width: 992px) {
+  .banner-info .title {
+    font-size: 32px;
+  }
+  .banner-img {
+    background-size: cover;
+    background-position: center;
+  }
+  .banner-info {
+    left: 80px;
+    top: 140px;
+  }
+  .game-footer .pc-app {
+    padding-right: 0;
+    border: none;
+    margin: 0;
+  }
+  .game-footer {
+    font-size: 12px;
+  }
+  .game-footer i {
+    font-size: 14px;
+  }
+  .btn-group .dropdown-menu {
+    transform: translate3d(6px, -257px, 0px) !important;
+  }
+  .list-container {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+  }
+  .list-container .left-list,
+  .list-container .right-list {
+    width: 100%;
+  }
+  .list-container img,
+  .list-container :after {
+    display: none;
+  }
+  .dropdown-menu-footer {
+    flex-wrap: wrap;
+    height: unset;
+    justify-content: flex-start !important;
+  }
+  .dropdown-menu-footer a {
+    display: flex;
+    width: 100%;
+  }
+  .dropdown-menu-footer .title {
+    padding-left: 5px;
+  }
+  .top-menu {
+    left: 0px;
+    width: 315px;
+  }
+}
